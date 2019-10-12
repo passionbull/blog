@@ -53,3 +53,16 @@ To see the introduction of a command, run `pipenv run invoke -h <command>`.
 ### License
 
 The project is open sourced under MIT license.
+
+### Step by Step
+
+1. fork this project
+2. git clone https://github.com/passionbull/blog-1.git
+3. cd blog-1
+4. git submodule update --init --recursive
+5. pipenv install
+6. npm install -g hexo-cli
+7. npm install
+8. pipenv run invoke -l
+9. pipenv run invoke blog.download -a makeahabit
+10. pipenv run invoke blog.test
