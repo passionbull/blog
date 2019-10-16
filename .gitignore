@@ -112,7 +112,7 @@ node_modules/
 public/
 .deploy*/
 .vscode/
-source/
+source/_posts/
 
 # steemblog
 _config.yml
