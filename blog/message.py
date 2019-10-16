@@ -76,7 +76,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://{organization}.{domain}
-root: /blog/
+root: /
 permalink: :permlink/
 permalink_defaults:
 
@@ -146,8 +146,8 @@ theme: icarus
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/{organization}/blog.git
-  branch: gh-pages
+  repository: https://github.com/{organization}/passionbull.github.io.git
+  branch: master
 
 marked:
   gfm: true
