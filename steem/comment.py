@@ -39,9 +39,12 @@ class SteemComment:
 
         return self.url
 
-    def get_pic_url(self, regex=False):
+    def get_pic_url(self, regex=False, default_img = 'https://steemitimages.com/0x0/https://i.ibb.co/q5zvPfj/720c17602a67.png'):
         body = self.get_comment().body
-        return SteemMarkdown(body).get_top_image(regex)
+        image_url = SteemMarkdown(body).get_top_image(regex)
+        if image_url == None:
+            image_url = default_img
+        return image_url
 
     def get_text_body(self):
         body = self.get_comment().body
