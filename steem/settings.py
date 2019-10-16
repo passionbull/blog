@@ -18,8 +18,8 @@ STEEMD_HOST = "https://steemd.com"
 STEEM_API_NODES = [
     "https://rpc.steemviz.com",
     "https://anyx.io", # may introduce encoding issue, be careful
-    "https://steemd.minnowsupportproject.org",
-    "https://api.steemitdev.com",
+    # "https://steemd.minnowsupportproject.org",
+    # "https://api.steemitdev.com",
     "https://api.steemit.com",
 ]
 

@@ -335,24 +335,24 @@ widgets:
         cache: true
         # Render the widget as a component
         component: true
-    -
-        # Widget name
-        type: tagcloud
-        # Where should the widget be placed, left or right
-        position: left
-        # Cache the widget or not, true or false
-        cache: true
-        # Render the widget as a component
-        component: true
-    -
-        # Widget name
-        type: tag
-        # Where should the widget be placed, left or right
-        position: left
-        # Cache the widget or not, true or false
-        cache: true
-        # Render the widget as a component
-        component: true
+    # -
+    #     # Widget name
+    #     type: tagcloud
+    #     # Where should the widget be placed, left or right
+    #     position: left
+    #     # Cache the widget or not, true or false
+    #     cache: true
+    #     # Render the widget as a component
+    #     component: true
+    # -
+    #     # Widget name
+    #     type: tag
+    #     # Where should the widget be placed, left or right
+    #     position: left
+    #     # Cache the widget or not, true or false
+    #     cache: true
+    #     # Render the widget as a component
+    #     component: true
     -
         # Widget name
         type: toc
