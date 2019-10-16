@@ -196,9 +196,8 @@ navbar:
     # Navigation bar menu links
     menu:
         Home: /
-        Archives: /archives
         Categories: /categories
-        Tags: /tags
+        Archives: /archives
         About: /about
     # Navigation bar links to be shown on the right
     # links:
