@@ -51,6 +51,18 @@ class SteemComment:
         body = self.get_comment().body
         return SteemMarkdown(body).get_steem_markdown()
 
+    def get_category(self):
+        c = self.get_comment()
+        if c.json_metadata and 'category' in c.json_metadata:
+            return c.json_metadata['category']
+        else:
+            self.refresh()
+            c = self.get_comment()
+            if c.json_metadata and 'category' in c.json_metadata:
+                return c.json_metadata['category']
+        return []
+
+
     def get_tags(self):
         c = self.get_comment()
         if c.json_metadata and 'tags' in c.json_metadata:
