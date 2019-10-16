@@ -97,7 +97,7 @@ class BlogBuilder(SteemReader):
         date_str = post.json()["created"]
         date = date_str.replace('T', ' ')
         tags = "\n".join(["- {}".format(tag) for tag in c.get_tags()])
-        category = c.get_category()
+        category = "\n".join(["- {}".format(c) for c in c.get_category()])
         thumbnail = self._yaml_compatible(c.get_pic_url(), "")
         url = c.get_url()
 

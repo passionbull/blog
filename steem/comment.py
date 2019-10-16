@@ -57,14 +57,19 @@ class SteemComment:
     def get_category(self):
         c = self.get_comment()
         if c.json_metadata and 'category' in c.json_metadata:
-            return c.json_metadata['category']
+            if type(c.json_metadata['category']) == type([]):
+                return c.json_metadata['category']
+            elif type(c.json_metadata['category']) == type(''):
+                return [c.json_metadata['category']]
         else:
             self.refresh()
             c = self.get_comment()
             if c.json_metadata and 'category' in c.json_metadata:
-                return c.json_metadata['category']
+                if type(c.json_metadata['category']) == type([]):
+                    return c.json_metadata['category']
+                elif type(c.json_metadata['category']) == type(''):
+                    return [c.json_metadata['category']]
         return []
-
 
     def get_tags(self):
         c = self.get_comment()

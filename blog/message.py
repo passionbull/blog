@@ -35,7 +35,7 @@ toc: true
 position: {position}
 date: {date}
 categories:
-- {category}
+{category}
 tags:
 {tags}
 thumbnail: {thumbnail}
