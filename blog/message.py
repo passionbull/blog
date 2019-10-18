@@ -233,10 +233,10 @@ search:
     type: insight
 # Comment plugin settings
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins
-# comment:
-#     # Name of the comment plugin
-#     type: disqus
-#     shortname: hexo-theme-icarus
+comment:
+    # Name of the comment plugin
+    type: disqus
+    shortname: jacobyu-net
 # Donation entries
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 # donate:
