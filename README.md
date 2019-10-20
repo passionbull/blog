@@ -54,7 +54,7 @@ To see the introduction of a command, run `pipenv run invoke -h <command>`.
 
 The project is open sourced under MIT license.
 
-### Step by Step
+### Step by Step (TEST)
 
 1. fork this project
 2. git clone https://github.com/passionbull/blog-1.git
@@ -64,5 +64,13 @@ The project is open sourced under MIT license.
 6. npm install -g hexo-cli
 7. npm install
 8. pipenv run invoke -l
-9. pipenv run invoke blog.download -a makeahabit
+9. pipenv run invoke blog.download -a jacobyu
 10. pipenv run invoke blog.test
+
+### Step by Step (Deploy)
+
+1. check your blog/message.py
+    - check type and repository_link, branch in deploy
+2. pipenv run invoke blog.download -a jacobyu
+3. pipenv run invoke blog.deploy
+
