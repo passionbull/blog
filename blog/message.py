@@ -90,6 +90,15 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+# Sitemap auto generator
+sitemap:
+    path: sitemap.xml
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post

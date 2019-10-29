@@ -74,3 +74,11 @@ The project is open sourced under MIT license.
 2. pipenv run invoke blog.download -a jacobyu
 3. pipenv run invoke blog.deploy
 
+### Apply SEO
+
+1. npm install --save hexo-auto-canonical
+2. npm install hexo-generator-seo-friendly-sitemap --save
+
+### Reference
+- https://futurecreator.github.io/2016/06/23/search-engine-optimization-hexo-plugins/
+
