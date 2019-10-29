@@ -5,6 +5,7 @@ import shutil
 import subprocess
 import requests
 import traceback
+import re
 
 from steem.comment import SteemComment
 from steem.account import SteemAccount
@@ -91,7 +92,9 @@ class BlogBuilder(SteemReader):
 
         # retrieve necessary data from steem
         title = self._yaml_compatible(post.title, "''")
-        permlink = post["permlink"]
+        # permlink = post["permlink"]
+        permlink = self.permalink_filtering(post.title)
+
         body = c.get_compatible_markdown()
         position = self._get_position(body)
         date_str = post.json()["created"]
@@ -328,3 +331,7 @@ class BlogBuilder(SteemReader):
             logger.info("The download duration has been expanded to the entire lifetime of the account")
 
 
+    def permalink_filtering(self,permalink):
+        permlink = re.sub('[/\s/g]','-', permalink)
+        permlink = re.sub('[=+,#/\?:^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》]', '', permlink)
+        return permlink
