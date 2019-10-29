@@ -75,7 +75,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://jacobyu.net
+url: http://{organization}.{domain}
 root: /
 permalink: :permlink/
 permalink_defaults:
