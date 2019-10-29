@@ -223,7 +223,7 @@ article:
     # https://github.com/highlightjs/highlight.js/tree/master/src/styles
     highlight: atom-one-dark
     # Whether to show article thumbnail images
-    thumbnail: true
+    thumbnail: false
     # Whether to show estimate article reading time
     readtime: true
 # Search plugin settings
@@ -300,15 +300,15 @@ widgets:
         # Email address for the Gravatar to be shown in the profile widget
         gravatar:
         # Path or URL for the follow button
-        follow_link: 'http://steemit.com/@{author}'
+        follow_link: 'https://steemcoinpan.com/@{author}'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'http://{organization}.github.io/@{author}'
+                url: 'https://github.com/{organization}'
             Steem:
                 icon: fa fa-book
-                url: 'http://steemit.com/@{author}'
+                url: 'https://steemcoinpan.com/@{author}'
             Website:
                 icon: fa fa-home
                 url: {website}
