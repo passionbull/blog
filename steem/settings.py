@@ -12,7 +12,7 @@ from utils.logging.logger import logger_ctl
 pd.options.mode.chained_assignment = None
 
 
-STEEM_HOST = "https://steemit.com"
+STEEM_HOST = "https://steempeak.com"
 STEEMD_HOST = "https://steemd.com"
 # more API nodes can be found from the file: https://github.com/holgern/beem/blob/cf284bdcffd490463be19cbf518af02db8eaf4be/beem/nodelist.py
 STEEM_API_NODES = [

@@ -204,10 +204,11 @@ logo: {logo}
 navbar:
     # Navigation bar menu links
     menu:
-        Home: /
-        Categories: /categories
-        Archives: /archives
-        About: /about
+        카테고리: /categories
+        책 이야기: /categories/책
+        여행 이야기: /categories/여행
+        프로젝트: /categories/프로젝트
+        모든 글: /archives
     # Navigation bar links to be shown on the right
     # links:
     #     Download on GitHub:
@@ -334,15 +335,15 @@ widgets:
         # links:
         #     Hexo: 'https://hexo.io'
         #     Bulma: 'https://bulma.io'
-    -
-        # Widget name
-        type: category
-        # Where should the widget be placed, left or right
-        position: left
-        # Cache the widget or not, true or false
-        cache: true
-        # Render the widget as a component
-        component: true
+    # -
+    #     # Widget name
+    #     type: category
+    #     # Where should the widget be placed, left or right
+    #     position: left
+    #     # Cache the widget or not, true or false
+    #     cache: true
+    #     # Render the widget as a component
+    #     component: true
     # -
     #     # Widget name
     #     type: tagcloud
@@ -381,7 +382,7 @@ widgets:
         # Widget name
         type: archive
         # Where should the widget be placed, left or right
-        position: right
+        position: left
         # Cache the widget or not, true or false
         cache: true
         # Render the widget as a component
