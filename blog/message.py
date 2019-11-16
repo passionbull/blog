@@ -209,6 +209,7 @@ navbar:
         여행 이야기: /categories/여행
         프로젝트: /categories/프로젝트
         모든 글: /archives
+        about: /about
     # Navigation bar links to be shown on the right
     # links:
     #     Download on GitHub:
