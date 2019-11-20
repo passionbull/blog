@@ -208,8 +208,8 @@ navbar:
         책 이야기: /categories/책
         여행 이야기: /categories/여행
         프로젝트: /categories/프로젝트
-        모든 글: /archives
-        About: /about
+        로드맵: /스팀-개발-공부-로드맵
+        About me: /about
     # Navigation bar links to be shown on the right
     # links:
     #     Download on GitHub:
