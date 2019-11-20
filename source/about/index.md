@@ -17,7 +17,7 @@ date: 2019-10-16 15:15:07
 * SLAM, Autonomus navigation
 * AVR, 임베디드보드, ROS
 * QT, Android, React
-* Server, Network, Network
+* Server, Network
 
 
 ---
