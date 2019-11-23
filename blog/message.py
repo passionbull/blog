@@ -209,7 +209,7 @@ navbar:
         여행 이야기: /categories/여행
         프로젝트: /categories/프로젝트
         로드맵: /개발-공부-로드맵
-        About me: /about
+        About: /about
     # Navigation bar links to be shown on the right
     # links:
     #     Download on GitHub:
@@ -336,15 +336,15 @@ widgets:
         # links:
         #     Hexo: 'https://hexo.io'
         #     Bulma: 'https://bulma.io'
-    # -
-    #     # Widget name
-    #     type: category
-    #     # Where should the widget be placed, left or right
-    #     position: left
-    #     # Cache the widget or not, true or false
-    #     cache: true
-    #     # Render the widget as a component
-    #     component: true
+    -
+        # Widget name
+        type: category
+        # Where should the widget be placed, left or right
+        position: left
+        # Cache the widget or not, true or false
+        cache: true
+        # Render the widget as a component
+        component: true
     # -
     #     # Widget name
     #     type: tagcloud
@@ -379,15 +379,15 @@ widgets:
         cache: true
         # Render the widget as a component
         component: true
-    -
-        # Widget name
-        type: archive
-        # Where should the widget be placed, left or right
-        position: left
-        # Cache the widget or not, true or false
-        cache: true
-        # Render the widget as a component
-        component: true
+    # -
+    #     # Widget name
+    #     type: archive
+    #     # Where should the widget be placed, left or right
+    #     position: left
+    #     # Cache the widget or not, true or false
+    #     cache: true
+    #     # Render the widget as a component
+    #     component: true
 
 # Other plugin settings
 plugins:
