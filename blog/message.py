@@ -201,14 +201,32 @@ logo: {logo}
 #     # Google+ profile link
 #     google_plus:
 # Navigation bar link settings
+일상:
+    일기: /categories/일기
+    독서일기: /categories/책
+개발:
+    스팀 블록체인: /categories/개발/steem
+    Tool: /categories/개발/tool
+    로봇: /categories/개발/로봇
+    IoT: /categories/개발/iot
+
+여행:
+    스위스: /categories/여행/스위스
+    스페인: /categories/여행/스페인
+    이탈리아: /categories/여행/이탈리아
+프로젝트:
+    Swap: /categories/프로젝트/swap/
+    SEY: /categories/프로젝트/sey/
+About:
+    Me: /about
+    로드맵: /개발-공부-로드맵
 navbar:
     # Navigation bar menu links
     menu:
-        카테고리: /categories
-        책 이야기: /categories/책
-        여행 이야기: /categories/여행
+        일상: /categories/일기
+        여행: /categories/여행
+        개발: /categories/개발
         프로젝트: /categories/프로젝트
-        로드맵: /개발-공부-로드맵
         About: /about
     # Navigation bar links to be shown on the right
     # links:
