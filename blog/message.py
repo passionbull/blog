@@ -206,6 +206,7 @@ logo: {logo}
     독서일기: /categories/책
 개발:
     스팀 블록체인: /categories/개발/steem
+    React Native: /categories/개발/react-native
     Tool: /categories/개발/tool
     로봇: /categories/개발/로봇
     IoT: /categories/개발/iot
@@ -217,6 +218,8 @@ logo: {logo}
 프로젝트:
     Swap: /categories/프로젝트/swap/
     SEY: /categories/프로젝트/sey/
+    Hexo blog: /categories/프로젝트/hexo-blog/
+
 About:
     Me: /about
     로드맵: /개발-공부-로드맵
