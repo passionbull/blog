@@ -17,10 +17,10 @@ STEEMD_HOST = "https://steemd.com"
 # more API nodes can be found from the file: https://github.com/holgern/beem/blob/cf284bdcffd490463be19cbf518af02db8eaf4be/beem/nodelist.py
 STEEM_API_NODES = [
     "https://rpc.steemviz.com",
+    "https://api.steemit.com",
     "https://anyx.io", # may introduce encoding issue, be careful
     # "https://steemd.minnowsupportproject.org",
     # "https://api.steemitdev.com",
-    "https://api.steemit.com",
 ]
 
 STEEM_KEYS = ["posting_key", "active_key"]
