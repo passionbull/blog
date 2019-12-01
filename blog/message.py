@@ -204,7 +204,8 @@ logo: {logo}
 일상:
     일기: /categories/일기
     독서일기: /categories/책
-개발:
+    관심사: /categories/관심사
+개발:
     스팀 블록체인: /categories/개발/steem
     React Native: /categories/개발/react-native
     Tool: /categories/개발/tool
