@@ -205,13 +205,12 @@ logo: {logo}
     일기: /categories/일기
     독서일기: /categories/책
     관심사: /categories/관심사
-개발:
+개발:
     스팀 블록체인: /categories/개발/steem
     React Native: /categories/개발/react-native
     Tool: /categories/개발/tool
     로봇: /categories/개발/로봇
-    IoT: /categories/개발/iot
-
+    IoT: /categories/개발/iot    
 여행:
     스위스: /categories/여행/스위스
     스페인: /categories/여행/스페인
