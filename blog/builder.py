@@ -97,7 +97,7 @@ class BlogBuilder(SteemReader):
 
         body = c.get_compatible_markdown()
         position = self._get_position(body)
-        date_str = post.json()["created"]
+        date_str = post.json()["last_update"]
         date = date_str.replace('T', ' ')
         tags = "\n".join(["- {}".format(tag) for tag in c.get_tags()])
         category = "\n".join(["- {}".format(c) for c in c.get_category()])
