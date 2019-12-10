@@ -218,6 +218,7 @@ logo: {logo}
     이탈리아: /categories/여행/이탈리아
 암호화폐:
     모든 글: /categories/암호화폐
+    힌트체인: /categories/암호화폐/힌트체인
 About:
     Me: /about
     로드맵: /개발-공부-로드맵
