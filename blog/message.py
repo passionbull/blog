@@ -204,22 +204,18 @@ logo: {logo}
 일상:
     일기: /categories/일기
     독서일기: /categories/책
-    관심사: /categories/관심사
 개발:
     스팀 블록체인: /categories/개발/steem
-    React Native: /categories/개발/react-native
+    React Native: /categories/개발/react
     Tool: /categories/개발/tool
     로봇: /categories/개발/로봇
     IoT: /categories/개발/iot    
+    프로젝트: /categories/프로젝트
 여행:
+    모든 글: /categories/여행
     스위스: /categories/여행/스위스
     스페인: /categories/여행/스페인
     이탈리아: /categories/여행/이탈리아
-프로젝트:
-    Swap: /categories/프로젝트/swap/
-    SEY: /categories/프로젝트/sey/
-    Hexo blog: /categories/프로젝트/hexo-blog/
-
 About:
     Me: /about
     로드맵: /개발-공부-로드맵
@@ -229,7 +225,7 @@ navbar:
         일상: /categories/일기
         여행: /categories/여행
         개발: /categories/개발
-        프로젝트: /categories/프로젝트
+        암호화폐: /categories/암호화폐
         About: /about
     # Navigation bar links to be shown on the right
     # links:
