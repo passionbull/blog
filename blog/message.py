@@ -206,7 +206,7 @@ logo: {logo}
     독서일기: /categories/책
 개발:
     스팀 블록체인: /categories/개발/steem
-    React Native: /categories/개발/react
+    React: /categories/개발/react
     Tool: /categories/개발/tool
     로봇: /categories/개발/로봇
     IoT: /categories/개발/iot    
