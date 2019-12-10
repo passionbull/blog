@@ -216,6 +216,8 @@ logo: {logo}
     스위스: /categories/여행/스위스
     스페인: /categories/여행/스페인
     이탈리아: /categories/여행/이탈리아
+암호화폐:
+    모든 글: /categories/암호화폐
 About:
     Me: /about
     로드맵: /개발-공부-로드맵
