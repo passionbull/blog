@@ -67,15 +67,15 @@ MESSAGES['config'] = """
 # add 'site_title' because 'title' is overriden by the metadata in post
 site_title: {name}
 title: {name}
-subtitle:
-description:
+subtitle: 'Money tree'
+description: 'Dev, Book, Blockchain'
 author: {author}
 language: {language}
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://{organization}.{domain}
+url: https://jacobyu.net
 root: /
 permalink: :permlink/
 permalink_defaults:
