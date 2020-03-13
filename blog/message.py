@@ -199,7 +199,6 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
     # Navigation bar links to be shown on the right
     # links:
     #     Download on GitHub:
