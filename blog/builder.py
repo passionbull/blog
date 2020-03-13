@@ -130,13 +130,13 @@ class BlogBuilder(SteemReader):
             return "github.io"
 
     def _get_blog_url(self):
-        return "https://{}.{}/@{}".format(BLOG_ORGANIZATION, self._get_domain(), self.account)
+        return "https://{}.{}/@{}".format(self.account, self._get_domain(), self.account)
 
     def _get_source_repo_url(self):
         return "{}/tree/{}".format(self._get_repo(), self.blog_folder)
 
     def _get_repo(self, prefix=True):
-        repo = "{0}/{0}.github.io".format(BLOG_ORGANIZATION)
+        repo = "{0}/{0}.github.io".format(self.account)
         if prefix:
             repo = "https://github.com/" + repo
         return repo
@@ -146,7 +146,7 @@ class BlogBuilder(SteemReader):
             return
 
         domain = self._get_domain()
-        organization = BLOG_ORGANIZATION
+        organization = self.account
         logo = BLOG_AVATAR
         favicon = BLOG_FAVICON
 
