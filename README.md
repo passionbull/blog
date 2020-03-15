@@ -60,7 +60,7 @@ The project is open sourced under MIT license.
 2. git clone https://github.com/passionbull/blog-1.git
 3. cd blog-1
 4. git submodule update --init --recursive
-5. pipenv install
+5. pipenv install --pypi-mirror https://pypi.python.org/simple
 6. npm install -g hexo-cli
 7. npm install
 8. pipenv run invoke -l
