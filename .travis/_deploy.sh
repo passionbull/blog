@@ -13,7 +13,7 @@ if [ -d public ]; then
     # deploy site to repo
     git clone --depth 1 --branch master --single-branch https://${GITHUB_PAT}@github.com/${GIT_USERNAME}.github.io.git site
     cd site
-    cp -r ../public/* ./
+    cp -r ../public/@${STEEM_ACCOUNTS}/ ./
 
     NOW=$(date +"%Y-%m-%d %H:%M:%S %z")
     git add --all *
